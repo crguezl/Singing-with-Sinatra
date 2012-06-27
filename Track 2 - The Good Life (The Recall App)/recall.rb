@@ -1,5 +1,6 @@
+require 'rubygems'
 require 'sinatra'
-require 'datamapper'
+require 'data_mapper' # underscore in the new version!
 
 DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/recall.db")
 
